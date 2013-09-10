@@ -1,0 +1,8 @@
+This Project is to track a colored object.
+
+Before running it, make sure you have install OpenCV and MMAL library.
+
+Color is define in function "GetThresholdedImage" in camcv_vid0.c. Blue is currently define. 
+
+To track other color, you have to find its ranges in HSV color space using the open source software "ColorWheelHSV" 
+download: https://app.box.com/s/f800b648b66e151e2866 (for Win OS only).
